@@ -1,10 +1,11 @@
 """
 This script calls "GET /network-device" API and print out
-an easy to read list with device host name,device ip and device type
+an easy to read list with device host name, device ip, and device type
 All simplify REST request functions and get authentication token function are in dnac.py
 Controller ip, username and password are defined in dnac_config.py
 """
 from  dnac import *
+from tabulate import *
 
 device = []
 try:

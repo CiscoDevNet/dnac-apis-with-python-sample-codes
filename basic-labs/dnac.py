@@ -18,7 +18,7 @@ requests.packages.urllib3.disable_warnings() # Disable warning message
 def get_X_auth_token(ip=dnac_config.DNAC_IP, ver=dnac_config.VERSION, uname=dnac_config.USERNAME, pword=dnac_config.PASSWORD):
     """
     This function returns a new service token.
-    Passing ip, version,username and password when use as standalone function
+    Passing ip, version, username, and password when used as standalone function
     to overwrite the configuration above.
 
     Parameters
@@ -29,7 +29,7 @@ def get_X_auth_token(ip=dnac_config.DNAC_IP, ver=dnac_config.VERSION, uname=dnac
     pword (str): password to authenticate with
 
     Return:
-    ----------
+    -------
     str: DNAC authentication token
     """
 
