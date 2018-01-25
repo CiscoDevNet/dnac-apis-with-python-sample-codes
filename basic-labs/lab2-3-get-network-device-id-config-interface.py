@@ -5,7 +5,7 @@ then calls - GET /network-device/{id}/config or GET /interface/network-device/"+
 to print out IOS configuration or interface information
 """
 from dnac import * # DNAC IP is assigned in dnac_config.py
-
+from tabulate import *
 
 # Print out device list for user to select
 

@@ -4,6 +4,7 @@ User select a device from the list and script retrieve device ID according to us
 then calls - GET /network-device/{id}/config - to print out IOS configuration
 """
 from dnac import * # DNAC IP is assigned in dnac_config.py
+from tabulate import *
 
 # Print out device list for user to select
 device = []
